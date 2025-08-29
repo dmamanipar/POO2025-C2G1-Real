@@ -10,7 +10,7 @@ public enum Carrera {
     Sistemas(FACULTAD.FIA),
     Civil(FACULTAD.FIA),
     Ambiental(FACULTAD.FIA),
-    Arquitectural(FACULTAD.FIA),
+    Arquitectura(FACULTAD.FIA),
 
     Administracion(FACULTAD.FCE),
     Contabilidad(FACULTAD.FCS);

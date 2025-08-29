@@ -23,6 +23,11 @@ public class Estudiante {
                 "Mamani", GENERO.Masculino, Carrera.Sistemas
         );
         System.out.println(e.codigo+" "+e.genero+" "+e.carrera);
+
+        for (Carrera c: Carrera.values()){
+            System.out.println(c);
+        }
+
     }
 
 }
