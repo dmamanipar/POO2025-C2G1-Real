@@ -2,7 +2,6 @@ package pe.edu.upeu.asistencia.servicio;
 
 import pe.edu.upeu.asistencia.modelo.Participante;
 import pe.edu.upeu.asistencia.repositorio.ParticipanteRepository;
-
 import java.util.List;
 
 public class ParticipanteServicioImp extends ParticipanteRepository
