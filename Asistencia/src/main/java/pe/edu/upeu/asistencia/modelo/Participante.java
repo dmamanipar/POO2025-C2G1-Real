@@ -9,7 +9,7 @@ import lombok.*;
 //@Data
 @Setter
 @Getter
-public class Estudiante {
+public class Participante {
     private StringProperty nombre;
     private BooleanProperty estado;
 
