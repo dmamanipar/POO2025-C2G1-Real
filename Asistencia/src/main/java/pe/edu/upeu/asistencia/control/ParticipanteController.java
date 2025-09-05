@@ -45,8 +45,11 @@ public class ParticipanteController {
         TableColumn<Participante, String> dniCol = new TableColumn<>("DNI");
         dniCol.setCellValueFactory(cellData -> cellData.getValue().getDni());
 
+        TableColumn<Participante, String> nombreCol = new TableColumn<>("Nombre");
+        nombreCol.setCellValueFactory(cellData -> cellData.getValue().getNombre());
+
         participantes = FXCollections.observableList(ps.findAll());
-        tableRegPart.getColumns().addAll(dniCol);
+        tableRegPart.getColumns().addAll(dniCol, nombreCol);
         tableRegPart.setItems(participantes);
     }
 
