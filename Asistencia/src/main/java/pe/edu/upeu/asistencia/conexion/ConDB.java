@@ -31,7 +31,7 @@ public class ConDB {
         }
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         PreparedStatement pst=null;
         ResultSet rs=null;
         Connection con=getConexion();
@@ -47,6 +47,6 @@ public class ConDB {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-    }
+    }*/
 
 }
